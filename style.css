@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+}
+
+
+nav{
+    background-color: #333;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+nav a:hover{
+    color: coral;
+}
+
+section{
+    text-align: center;
+    padding-top: 40px;
+    height: 100vh;
+}
+
+section:nth-child(even) {
+    background-color: #ececec;
+
+}
+
+iframe{
+    padding: 0px 10px;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #333;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+footer a:hover{
+    color: coral;
+}
+
+.copyright{
+    float: right;
+}
+
+section h4{
+    margin: 0px 80px;
+}
+
+.banner{
+    background-image: url(../assets/courses/logo/logo2.gif);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+.flex-aling-right{
+    margin-left: auto;
+    text-size-adjust: bold;
+}
+
+
+  
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.carousel-cell video{
+    max-width: 100%;
+}
+
+
+.profile_name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+}
+
+.sm-handle a {
+    font-size: large;
+    background-color: rgb(125 125 125 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+.our-clients a{
+    padding: 0px 10px;
+    border-radius: 50%;
+}
+
+.course{
+    font-size: small;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin: 10px 0px 15px 0px;
+    padding-bottom: 4px;
+}
+
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 5px;
+    border-radius: 10px;
+ }
+
+
+.img-responsive{
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+} 
+
+
+.clients{
+    padding-top: 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.clients h3{
+    padding-right: 145px;
+    text-align: right;
+}
+
+.sm-handle a:hover{
+    background-color: rgb(30 30 30 / 25%);
+}
+
+.sm-handle a i{
+    margin: 5px;
+}
+
+.linkedin-handle{
+    color: #0e76a8;
+}
+
+
+.instagram-handle{
+    color: #dd2a7b;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+    .flex-aling-right{
+        margin-left: 0;
+    }
+}
+
+section h2 span{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+}
